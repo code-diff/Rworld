@@ -26,7 +26,7 @@ public class HospitalAppBootApplication {
 	@Bean
 	public Docket getDocket()
 	{
-		springfox.documentation.service.Contact contact = new springfox.documentation.service.Contact("Pooja", "www.testyantra.com", "pujapoo984@gmail.com");
+		springfox.documentation.service.Contact contact = new springfox.documentation.service.Contact("Rahulnadh", "www.testyantra.com", "rahulnadh92@gmail.com");
 		List<VendorExtension> extension = new ArrayList<VendorExtension>();
 		ApiInfo apiInfo = new ApiInfo("HOSPITAL API SERVICE", "HOSPITAL mANAGEMENT SERVICE", "SNAPSHOT 12.2022", "www.testyantra.com", contact, "Licence 12345", "www.testyAntra.com",extension);
 		return new Docket(DocumentationType.SWAGGER_2)
