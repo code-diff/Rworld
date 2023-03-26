@@ -28,7 +28,7 @@ public class HospitalAppBootApplication {
 	{
 		springfox.documentation.service.Contact contact = new springfox.documentation.service.Contact("Rahulnadh", "www.testyantra.com", "rahulnadh92@gmail.com");
 		List<VendorExtension> extension = new ArrayList<VendorExtension>();
-		ApiInfo apiInfo = new ApiInfo("HOSPITAL API SERVICE", "HOSPITAL mANAGEMENT SERVICE", "SNAPSHOT 12.2022", "www.testyantra.com", contact, "Licence 12345", "www.testyAntra.com",extension);
+		ApiInfo apiInfo = new ApiInfo("HOSPITAL API SERVICE", "HOSPITAL MANAGEMENT SERVICE", "SNAPSHOT 12.2022", "www.testyantra.com", contact, "Licence 12345", "www.testyAntra.com",extension);
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.ty.hospital"))
